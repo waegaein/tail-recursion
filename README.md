@@ -8,11 +8,11 @@ Tail recursion may come here to the rescue.
 There is not actually a tail call optimization in Python, nevertheless, the trick here shows performance/resource boost comparable to iteration.
 
 ## Installation
-1. Clone repository.
+1. Clone the repository.
 `git clone git@github.com:waegaein/tail-recursion.git`
-2. Install requirements.
+2. Install the requirements.
 `pip install -r requirements.txt`
-3. Run benchmark; Use index as you want for the fibonacci series.
+3. Run the benchmark; Use index as you want for the Fibonacci sequence.
 `bash benchmark.sh 20`
 4. Play with your own configurations!
 `benchmark.sh, main.py, utils.py`
