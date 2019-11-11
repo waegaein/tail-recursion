@@ -42,7 +42,6 @@ Elapsed: 4.63 msec
 Allocated: 0.80 MiB
 ```
 
-
 ## Reference
 * Chris, P. (2017, July 26). _Tail Recursion in Python_ [[Link]](https://chrispenner.ca/posts/python-tail-recursion)
 
