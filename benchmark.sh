@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
-python main.py 0 20
-python main.py 1 20
-python main.py 2 20
+if [[ "${#}" != "1" ]];
+then
+    printf "You need to provide positional argument; number"
+    exit 1
+fi
+
+python main.py 0 "${1}"
+python main.py 1 "${1}"
+python main.py 2 "${1}"

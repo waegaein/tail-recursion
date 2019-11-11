@@ -29,11 +29,22 @@ def benchmark(func):
     @allocated_memory
     @elapsed_milliseconds
     def marker(*args, **kwargs):
+        output_separator(func)
         value = func(*args, **kwargs)
-        print(f'Reulst: {value}')
+        print(f'Result: {value}')
 
     return marker
 
 
 def memory_king():
     return [1] * (10 ** 5)
+
+
+def output_separator(func):
+    function_name = func.__name__
+    rule = '-' * len(function_name)
+    print(f'\n{rule}')
+    print(func.__name__)
+    print(rule)
+
+    return

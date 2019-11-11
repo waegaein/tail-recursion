@@ -7,8 +7,6 @@ from tail import tail_recursive, recurse
 
 @benchmark
 def fibonacci_plain_recursive(n: int):
-    print('---\nfibonacci_plain_recursive\n---')
-
     def _fibonacci_plain_recursion(n: int):
         a = memory_king()
 
@@ -22,8 +20,6 @@ def fibonacci_plain_recursive(n: int):
 
 @benchmark
 def fibonacci_iterative(n: int):
-    print('---\nfibonacci_iterative\n---')
-
     a = memory_king()
 
     if n < 2:
@@ -42,8 +38,6 @@ def fibonacci_iterative(n: int):
 
 @benchmark
 def fibonacci_tail_recursive(n: int):
-    print('---\nfibonacci_tail_recursive\n---')
-
     @tail_recursive
     def _fibonacci_tail_recursive(n: int, before: Optional[int] = 1, two_before: Optional[int] = 1):
         a = memory_king()
