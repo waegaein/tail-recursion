@@ -20,8 +20,6 @@ def fibonacci_plain_recursive(n: int):
 
 @benchmark
 def fibonacci_iterative(n: int):
-    a = memory_king()
-
     if n < 2:
         return 1
 
@@ -29,6 +27,8 @@ def fibonacci_iterative(n: int):
     previous = 1
 
     for i in range(2, n + 1):
+        a = memory_king()
+
         temp = current
         current += previous
         previous = temp

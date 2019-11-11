@@ -2,7 +2,7 @@
 
 if [[ "${#}" != "1" ]];
 then
-    printf "You need to provide positional argument; number"
+    printf "You need to provide one positional argument; number\n"
     exit 1
 fi
 

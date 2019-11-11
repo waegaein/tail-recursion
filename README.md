@@ -5,7 +5,7 @@ Programming should follow the narrative of the problem to solve.
 Some fits better into iteration, whereas some fits into recursion.
 However, plain recursion is not so great when it comes to performance.
 Tail recursion may come here to the rescue.
-There is not actually a tail call optimization in Python, nevertheless, the trick here shows performance/resource boost which is comparable to iteration.
+There is not actually a tail call optimization in Python, nevertheless, the trick here shows performance/resource boost comparable to iteration.
 
 ## Installation
 1. Clone repository.
@@ -23,21 +23,21 @@ There is not actually a tail call optimization in Python, nevertheless, the tric
 fibonacci_plain_recursive
 -------------------------
 Result: 10946
-Elapsed: 4255.41 msec
-Allocated: 11.90 MiB
+Elapsed: 3901.50 msec
+Allocated: 11.91 MiB
 
 -------------------
 fibonacci_iterative
 -------------------
 Result: 10946
-Elapsed: 0.55 msec
-Allocated: 0.80 MiB
+Elapsed: 4.01 msec
+Allocated: 1.56 MiB
 
 ------------------------
 fibonacci_tail_recursive
 ------------------------
 Result: 10946
-Elapsed: 4.63 msec
+Elapsed: 5.37 msec
 Allocated: 0.80 MiB
 ```
 
