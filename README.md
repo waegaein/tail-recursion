@@ -17,7 +17,8 @@ Nevertheless, tail recursion trick here shows meaningful performance/resource bo
 `bash benchmark.sh 20`
 
 ## Sample Output
-```-------------------------
+```
+-------------------------
 fibonacci_plain_recursive
 -------------------------
 Result: 10946
@@ -36,8 +37,7 @@ fibonacci_tail_recursive
 ------------------------
 Result: 10946
 Elapsed: 4.63 msec
-Allocated: 0.80 MiB
-```
+Allocated: 0.80 MiB ```
 
 
 ## Reference
