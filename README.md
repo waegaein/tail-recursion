@@ -15,6 +15,7 @@ Nevertheless, tail recursion trick here shows meaningful performance/resource bo
 `pip install -r requirements.txt`
 3. Run benchmark; Use index as you want for the fibonacci series.
 `bash benchmark.sh 20`
+4. Play with your own configurations! `benchmark.sh, main.py, utils.py`
 
 ## Sample Output
 ```
