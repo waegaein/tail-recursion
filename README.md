@@ -10,7 +10,7 @@ Nevertheless, tail recursion trick here shows meaningful performance/resource bo
 
 ## Installation
 1. Clone repository.
-`git@github.com:waegaein/tail-recursion.git`
+`git clone git@github.com:waegaein/tail-recursion.git`
 2. Install requirements.
 `pip install -r requirements.txt`
 3. Run benchmark; Use index as you want for the fibonacci series.
