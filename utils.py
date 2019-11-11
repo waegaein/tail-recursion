@@ -44,7 +44,7 @@ def output_separator(func):
     function_name = func.__name__
     rule = '-' * len(function_name)
     print(f'\n{rule}')
-    print(func.__name__)
+    print(function_name)
     print(rule)
 
     return
