@@ -5,7 +5,7 @@ Programming should follow the narrative of the problem to solve.
 Some fits better into iteration, whereas some fits into recursion.
 However, plain recursion is not so great when it comes to performance.
 Tail recursion may come here to the rescue.
-There is not actually a tail call optimization in Python
+There is not actually a tail call optimization in Python.
 Nevertheless, tail recursion trick here shows meaningful performance/resource boost at least.
 
 ## Installation
