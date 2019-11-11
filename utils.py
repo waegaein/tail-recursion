@@ -20,7 +20,8 @@ def allocated_memory(func):
         start = memory_usage(interval=0.00001, max_usage=True)
         func(*args, **kwargs)
         end = memory_usage(interval=0.00001, max_usage=True)
-        print(f'Allocated: {end - start:.2f} MiB')
+        usage = end - start
+        print(f'Allocated: {usage:.2f} MiB')
 
     return tracker
 
